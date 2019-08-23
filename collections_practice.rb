@@ -22,8 +22,10 @@ def reverse_array
   array.reverse
 end
 
-def kesha_maker
-  
+def kesha_maker(array)
+  array.map do |element|
+    
+  end
 end
 
 def find_a
