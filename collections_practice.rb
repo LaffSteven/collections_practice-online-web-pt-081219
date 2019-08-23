@@ -8,7 +8,7 @@ def sort_array_desc(array)
   end
 end
 
-def sort_array_char_count(array)
+def sort_array_char_count(strings)
   array.sort do |a, b|
     a.length <=> b.length
   end
@@ -19,21 +19,21 @@ def swap_elements(array)
   array
 end
 
-def reverse_array(array)
+def reverse_array(numbers)
   array.reverse
 end
 
-def kesha_maker(array)
+def kesha_maker(strings)
   array.map do |element|
     elemenet[3] = "$"
   end
 end
 
-def find_a
+def find_a(strings)
   
 end
 
-def sum_array
+def sum_array(numbers)
   
 end
 
