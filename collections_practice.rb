@@ -40,8 +40,8 @@ def sum_array(numbers)
 end
 
 def add_s(strings)
-    strings.collect do |str|
-    if array[1] == str
+  strings.collect do |str|
+    if strings[1] == str
       str
     else
       str + "s"
