@@ -24,7 +24,7 @@ end
 
 def kesha_maker(array)
   array.map do |element|
-    
+    elemenet[3] = "$"
   end
 end
 
