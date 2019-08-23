@@ -30,10 +30,8 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
-  strings.map do |str|
-    if str[0] == a
-      yield str
-    end
+  strings.find_all do |str|
+    str[0] == "a"
   end
 end
 
