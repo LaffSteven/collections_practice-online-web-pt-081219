@@ -39,6 +39,12 @@ def sum_array(numbers)
   numbers.inject{|sum, i| sum + i}
 end
 
-def add_s
-  
+def add_s(strings)
+    strings.collect do |str|
+    if array[1] == str
+      str
+    else
+      str + "s"
+    end
+  end
 end
