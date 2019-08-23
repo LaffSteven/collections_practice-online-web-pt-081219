@@ -25,7 +25,7 @@ end
 
 def kesha_maker(strings)
   strings.map do |str|
-    str[3] = "$"
+    str[2] = "$"
   end
 end
 
