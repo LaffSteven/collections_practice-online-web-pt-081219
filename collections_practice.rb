@@ -32,7 +32,7 @@ end
 def find_a(strings)
   strings.each do |str|
     if str[1] == a
-    
+      yield(str)
     end
   end
 end
