@@ -1,15 +1,15 @@
 def sort_array_asc(numbers)
-  array.sort
+  numbers.sort
 end
 
 def sort_array_desc(numbers)
-  array.sort do |a, b|
+  numbers.sort do |a, b|
     b <=> a
   end
 end
 
 def sort_array_char_count(strings)
-  array.sort do |a, b|
+  strings.sort do |a, b|
     a.length <=> b.length
   end
 end
@@ -20,17 +20,21 @@ def swap_elements(array)
 end
 
 def reverse_array(numbers)
-  array.reverse
+  numbers.reverse
 end
 
 def kesha_maker(strings)
-  array.map do |element|
+  strings.map do |element|
     elemenet[3] = "$"
   end
 end
 
 def find_a(strings)
-  
+  strings.each do |str|
+    if str[1] == a
+    
+    end
+  end
 end
 
 def sum_array(numbers)
