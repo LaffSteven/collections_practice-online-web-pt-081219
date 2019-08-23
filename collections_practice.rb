@@ -24,7 +24,7 @@ def reverse_array(numbers)
 end
 
 def kesha_maker(strings)
-  strings.map do |str|
+  strings.each do |str|
     str[2] = "$"
   end
 end
